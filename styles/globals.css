@@ -13,4 +13,51 @@ a {
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 5px;
+}
+.img-responsive {
+  width: 100%;
+}
+.sec-cards {
+  margin: 50px 24px;
+}
+.title {
+  font-size: 36px;
+  text-align: center;
+  margin: 20px 0;
+  text-transform: uppercase;
+}
+.heroTitle {
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 1;
+}
+.pHero {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  
+}
+.btn-cards {
+  display: flex;
+  margin: 50px 0;
+  background-color: black;
+
+}
+.quick-links {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 0px;
 }
