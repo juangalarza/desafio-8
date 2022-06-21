@@ -41,7 +41,7 @@ export default function SimpleContainer() {
               }}
             />
 
-            <Typography variant="h1" sx={{ fontWeight: 600 }}>NUNCA PARAMOS</Typography>
+            <Typography variant="h1" sx={{ fontWeight: 600, fontSize: "60px" }}>NUNCA PARAMOS</Typography>
           
             <p className="pHero">
               Celebrá los últimos 50 años de innovaciones, atletas y momentos

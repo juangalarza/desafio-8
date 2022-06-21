@@ -17,7 +17,7 @@ export default function SimpleContainer() {
       <Box
         sx={{
           backgroundColor: "#FFBF00",
-          width: "100%",
+          width: "auto",
           height: "40%",
           padding: "30px 24px 0 24px",
           display: "flex",
@@ -34,8 +34,8 @@ export default function SimpleContainer() {
           <Grid
             item
             xs={12}
-            sm={6}
-            xl={6}
+            sm={3}
+            xl={3}
             sx={{
               textAlign: "left",
             }}
@@ -52,8 +52,8 @@ export default function SimpleContainer() {
           <Grid
             item
             xs={12}
-            sm={6}
-            xl={6}
+            sm={9}
+            xl={9}
             sx={{
               textAlign: "right",
             }}
@@ -127,7 +127,7 @@ export default function SimpleContainer() {
               </Grid>
               <Grid
                 item
-                spacing={1}
+                spacing={2}
                 xs={6}
                 sm={3}
                 xl={3}

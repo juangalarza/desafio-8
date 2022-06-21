@@ -3,13 +3,14 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import NoSsr from "@mui/base/NoSsr";
+
 
 export default function Contact() {
   return (
 
       <Box
         sx={{
+          width: "100%",
           height: "100%",
           padding: "0 24px",
           display: "flex",
@@ -35,7 +36,7 @@ export default function Contact() {
               spacing={2}
             >
               <h1>Permanezcamos en contacto!</h1>
-              <Grid item xs={12} md={6} xl={8}>
+              <Grid item xs={12} xl={8}>
                 <TextField
                   fullWidth
                   id="outlined-textarea"
