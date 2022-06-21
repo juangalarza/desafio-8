@@ -102,7 +102,7 @@ export default function SimpleContainer() {
                       mx: 0.5,
                     },
                   }}>
-                    <Image src="/hand.png" width="300" height="300" />
+                    <Image src="/hand.png" width="300" height="300" alt="Nothing" />
                     {/* <SentimentVeryDissatisfiedIcon
                       sx={{
                         fontSize: "180px",
