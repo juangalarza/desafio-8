@@ -60,7 +60,7 @@ export default function SimpleContainer() {
               }}
             >
               Estan listos para la mejor exp UI?
-              <Image src={HeroImg} width="640" height="300" />
+              <Image src={HeroImg} width="640" height="300" alt=''/>
               <Button variant="contained" color="success">
                 <Link href="/landing" underline="none" sx={{ color: "#fff" }}>
                   Si, vamos!
