@@ -4,6 +4,12 @@ import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
 import logoWeb from "../public/nike-brand.png";
+import Link from "@mui/material/Link";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Divider from '@mui/material/Divider';
 
 export default function SimpleContainer() {
   return (
@@ -15,55 +21,159 @@ export default function SimpleContainer() {
           height: "40%",
           padding: "30px 24px 0 24px",
           display: "flex",
-          alignContent: "flex-start",
+          // alignContent: "flex-start",
         }}
       >
         <Grid
           container
           direction="row"
           justifyContent="center"
-          alignItems="flex-start"
+          alignItems="center"
           spacing={2}
         >
-          <Grid item xs={12} sm={12} xl={3}>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            xl={6}
+            sx={{
+              textAlign: "left",
+            }}
+          >
             <Image
               src={logoWeb}
               width={60}
               height={24}
               alt="Logo"
-              sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
+              sx={{ mr: 1 }}
             />
-            <h4>Just... Do It!</h4>
           </Grid>
 
-          <Grid item xs={12} sm={4} xl={3}>
-            <h1>Acceso rapido</h1>
-            <ul className="quick-links">
-                <li>Inicio</li>
-                <li>Acerca</li>
-                <li>Productos</li>
-                <li>Servicios</li>
-            </ul>
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            xl={6}
+            sx={{
+              textAlign: "right",
+            }}
+          >
+            <Grid container>
+              <Grid
+                item
+                xs={6}
+                sm={3}
+                xl={3}
+                sx={{
+                  textAlign: "right",
+                }}
+              >
+                <Link
+                  href="#"
+                  underline="none"
+                  sx={{
+                    fontSize: "20px",
+                    fontWeight: 600,
+                    color: "#000",
+                    textTransform: "uppercase"
+                  }}
+                >
+                  Inicio
+                </Link>
+              </Grid>
+              <Grid
+                item
+                xs={6}
+                sm={3}
+                xl={3}
+                sx={{
+                  textAlign: "right",
+                }}
+              >
+                <Link
+                  href="#"
+                  underline="none"
+                  sx={{
+                    fontSize: "20px",
+                    fontWeight: 600,
+                    color: "#000",
+                    textTransform: "uppercase"
+                  }}
+                >
+                  Acerca
+                </Link>
+              </Grid>
+              <Grid
+                item
+                xs={6}
+                sm={3}
+                xl={3}
+                sx={{
+                  textAlign: "right",
+                }}
+              >
+                <Link
+                  href="#"
+                  underline="none"
+                  sx={{
+                    fontSize: "20px",
+                    fontWeight: 600,
+                    color: "#000",
+                    textTransform: "uppercase"
+                  }}
+                >
+                  Productos
+                </Link>
+              </Grid>
+              <Grid
+                item
+                spacing={1}
+                xs={6}
+                sm={3}
+                xl={3}
+                sx={{
+                  textAlign: "right",
+                }}
+              >
+                <Link
+                  href="#"
+                  underline="none"
+                  sx={{
+                    fontSize: "20px",
+                    fontWeight: 600,
+                    color: "#000",
+                    textTransform: "uppercase"
+                  }}
+                >
+                  Servicios
+                </Link>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            xl={12}
+            sx={{
+              textAlign: "center",
+            }}
+          >
+            <Divider />
+          </Grid>
+          <Grid item xs={12} sm={6} xl={6} sx={{
+              textAlign: "left"
+            }}>
+            <h6 className="fWrapper">Copyright © 2022 Nike Inc. All rights reserved.</h6>
           </Grid>
 
-          <Grid item xs={12} sm={4} xl={3}>
-          <h1>Cuenta</h1>
-            <ul className="account-links">
-                <li>Mi cuenta</li>
-                <li>Mis pedidos</li>
-                <li>Mis pagos</li>
-                <li>Salir</li>
-            </ul>
-          </Grid>
-
-          <Grid item xs={12} sm={4} xl={3}>
-          <h1>Redes Sociales</h1>
-            <ul className="social-links">
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Whatsapp</li>
-                <li>LinkedIn</li>
-            </ul>
+          <Grid item xs={6} sm={6} xl={6} sx={{
+              textAlign: "right",
+            }}>
+              <FacebookIcon />
+              <InstagramIcon />
+              <YouTubeIcon />
+              <WhatsAppIcon />
           </Grid>
         </Grid>
       </Box>

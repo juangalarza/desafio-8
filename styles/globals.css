@@ -25,6 +25,7 @@ h1 {
 }
 .sec-cards {
   margin: 50px 24px;
+  height: 100%;
 }
 .title {
   font-size: 36px;
@@ -37,6 +38,13 @@ h1 {
   font-weight: 900;
   line-height: 1;
 }
+.fWrapper {
+  margin: 5px 0;
+}
+.MuiGrid-item {
+  padding: 20px 0;
+}
+
 .pHero {
   font-size: 20px;
   color: white;

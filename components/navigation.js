@@ -18,7 +18,7 @@ import Image from "next/image";
 import LogReg from "../components/modalLogReg";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Contact"];
+const navItems = ["Inicio", "Productos", "Galeria", "Contacto"];
 
 function DrawerAppBar(props) {
   const { window } = props;
