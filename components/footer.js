@@ -3,6 +3,7 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
+import Button from "@mui/material/Button";
 import logoWeb from "../public/nike-brand.png";
 import Link from "@mui/material/Link";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -58,7 +59,13 @@ export default function SimpleContainer() {
               textAlign: "right",
             }}
           >
-            <Grid container>
+            <Box sx={{ display: { xs: "none", sm: "block" } }}>
+              <Button sx={{ color: "#000" }}>Inicio</Button>
+              <Button sx={{ color: "#000" }}>Productos</Button>
+              <Button sx={{ color: "#000" }}>Galeria</Button>
+              <Button sx={{ color: "#000" }}>Contactanos</Button>
+            </Box>
+            {/* <Grid container>
               <Grid
                 item
                 xs={6}
@@ -148,7 +155,7 @@ export default function SimpleContainer() {
                   Servicios
                 </Link>
               </Grid>
-            </Grid>
+            </Grid> */}
           </Grid>
           <Grid
             item

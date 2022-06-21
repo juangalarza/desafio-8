@@ -65,8 +65,8 @@ export default function FullWidthTabs() {
           variant="fullWidth"
           aria-label="full width tabs example"
         >
-          <Tab label="Ingresar" {...a11yProps(0)} />
-          <Tab label="Regristrarme" {...a11yProps(1)} />
+          <Tab label="Ingresar" {...a11yProps(0)} sx={{backgroundColor: "#FFBF00", color: "#000" }} />
+          <Tab label="Regristrarme" {...a11yProps(1)} sx={{backgroundColor: "#FFBF00", color: "#000" }} />
         </Tabs>
       </AppBar>
 

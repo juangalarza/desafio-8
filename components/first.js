@@ -108,6 +108,11 @@ export default function SimpleContainer() {
                   <Grid item xs={12} md={8} xl={8}>
                   <h1>GRACIAS!</h1>
                   <h1>SON CRACKS!</h1>
+                  <Button variant="contained" color="success">
+                <Link href="/landing" underline="none" sx={{ color: "#fff" }}>
+                  Bueno, vamos...!
+                </Link>
+              </Button>
                   </Grid>
                 </Grid>
               </Modal>

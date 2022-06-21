@@ -52,7 +52,7 @@ export default function FormPropsTextFields() {
 
         <Grid item xs={12} xl={8}>
           <div className="btn-center">
-            <Button variant="contained">Ingresar</Button>
+            <Button variant="contained" sx={{ backgroundColor: "#FFBF00", color: "#000"}}>Ingresar</Button>
           </div>
         </Grid>
       </Grid>

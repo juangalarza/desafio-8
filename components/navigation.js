@@ -101,11 +101,11 @@ function DrawerAppBar(props) {
             />
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            <Button sx={{ color: "#fff" }}>Inicio</Button>
-            <Button sx={{ color: "#fff" }}>Productos</Button>
-            <Button sx={{ color: "#fff" }}>Galeria</Button>
-            <Button sx={{ color: "#fff" }}>Contactanos</Button>
-            <Button sx={{ color: "#fff" }} variant="outlined" onClick={handleOpen}>Mi cuenta</Button>
+            <Button sx={{ color: "#000" }}>Inicio</Button>
+            <Button sx={{ color: "#000" }}>Productos</Button>
+            <Button sx={{ color: "#000" }}>Galeria</Button>
+            <Button sx={{ color: "#000" }}>Contactanos</Button>
+            <Button sx={{ color: "#000", border: "2px solid #000" }} variant="outlined" onClick={handleOpen}>Mi cuenta</Button>
             <Modal
               open={open}
               onClose={handleClose}
