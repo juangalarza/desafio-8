@@ -42,8 +42,7 @@ export default function SimpleContainer() {
             />
 
             <Typography variant="h1" sx={{ fontWeight: 600 }}>NUNCA PARAMOS</Typography>
-            
-            {/* <h1 className="heroTitle">NUNCA PARAMOS</h1> */}
+          
             <p className="pHero">
               Celebrá los últimos 50 años de innovaciones, atletas y momentos
               icónicos que han definido el futuro del deporte. Unite a nosotros
@@ -61,7 +60,7 @@ export default function SimpleContainer() {
             </Button>
           </Grid>
           <Grid item xs={12} md={6} xl={6}>
-            <Image src={HeroImg} width="640" height="300" />
+            <Image src={HeroImg} width="640" height="300" alt="Nothing" />
           </Grid>
         </Grid>
       </Box>

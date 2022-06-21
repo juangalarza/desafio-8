@@ -52,6 +52,7 @@ function DrawerAppBar(props) {
       <Typography variant="h6" sx={{ my: 2, margin: "10px 0" }}>
         <Image
           src="/nike-brand.png"
+          alt="Nothing"
           width={60}
           height={24}
           sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
@@ -96,6 +97,7 @@ function DrawerAppBar(props) {
               width={60}
               height={24}
               sx={{ display: { xs: "flex", md: "none" }, mr: 1, mt: "7px" }}
+              alt="Nothing"
             />
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
