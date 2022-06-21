@@ -72,7 +72,7 @@ export default function SimpleContainer() {
                 color="error"
                 sx={{ ml: "10px" }}
               >
-                <Link href="#" underline="none" sx={{ color: "#fff" }}>
+                <Link  underline="none" sx={{ color: "#fff" }}>
                   Todavia no
                 </Link>
               </Button>
@@ -103,12 +103,6 @@ export default function SimpleContainer() {
                     },
                   }}>
                     <Image src="/hand.png" width="300" height="300" alt="Nothing" />
-                    {/* <SentimentVeryDissatisfiedIcon
-                      sx={{
-                        fontSize: "180px",
-                        
-                      }}
-                    /> */}
                   </Grid>
                   <Divider orientation="vertical" flexItem />
                   <Grid item xs={12} md={8} xl={8}>
