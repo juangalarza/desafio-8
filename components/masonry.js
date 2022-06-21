@@ -1,16 +1,15 @@
-import * as React from "react";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
-import Image from "next/image";
+import * as React from 'react';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 
 export default function StandardImageList() {
   return (
-    <ImageList sx={{ width: 1 }} cols={4}>
+    <ImageList sx={{ width: 1, height: 650 }} cols={4} >
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
-          <Image
-            src={`${item.img}?w=100%&w=100%&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=100%&w=100%&fit=crop&auto=format&dpr=2 2x`}
+          <img
+            src={`${item.img}?w=100%&fit=crop&auto=format`}
+            srcSet={`${item.img}?w=100%&fit=crop&auto=format&dpr=2 2x`}
             alt={item.title}
             loading="lazy"
           />
