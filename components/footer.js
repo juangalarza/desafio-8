@@ -59,7 +59,7 @@ export default function SimpleContainer() {
               textAlign: "right",
             }}
           >
-            <Box sx={{ display: { xs: "none", sm: "block" } }}>
+            <Box sx={{ display: { xs: "block", sm: "block" } }}>
               <Button sx={{ color: "#000" }}>Inicio</Button>
               <Button sx={{ color: "#000" }}>Productos</Button>
               <Button sx={{ color: "#000" }}>Galeria</Button>
